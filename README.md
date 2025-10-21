@@ -3,7 +3,7 @@
 A simple, responsive business card design built using **HTML** and **CSS** only.
 
 ## 🖥️ Live Demo
-👉 [View it here](https://yourusername.github.io/business-card/)
+👉 [View it here](https://fizza-areej.github.io/Business-card/)
 
 ## 🎯 Features
 - Fully responsive design
