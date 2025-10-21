@@ -1,0 +1,138 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #C8C9CD;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+
+}
+
+.text {
+    line-height: 0.5;
+    /* normal 1.0 hoti hai, thoda relaxed */
+}
+.icon1 img {
+    transition: transform 0.3s ease;
+}
+
+.icon1 img:hover {
+    transform: scale(1.2);
+}
+
+
+.front,.back {
+    background-color: white;
+    width: 480px;
+    height: 280px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+    display: flex;
+
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+}
+
+.inner {
+    background-color: #F1F1F1;
+    width: 93.8%;
+    /* accurate width fit */
+    height: 89.3%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.inner1 {
+    background-color: #006BB6;
+    width: 93.8%;
+    /* accurate width fit */
+    height: 89.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+
+
+.text {
+    font-size: 0.6rem;
+
+}
+
+.text h1 {
+
+    color: #006BB6;
+
+}
+
+
+.line {
+
+    background-color: #006BB6;
+    width: 3.5px;
+    height: 120px;
+}
+
+.icon1 img {
+    fill: #006BB6;
+
+}
+
+.icon1 {
+    display: flex;
+    gap: 17px;
+    line-height: 0.3;
+
+}
+@media (max-width: 480px) {
+  .inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+   
+  }
+
+  .line {
+    display: none;
+  }
+
+  .img img {
+    width: 90px;
+  }
+
+  .text h1 {
+    font-size: 0.9rem;
+  }
+
+  .text p {
+    font-size: 0.7rem;
+  }
+
+  .icon1 {
+    justify-content: center;
+  }
+
+  .icon1 img {
+    width: 15px;
+  }
+}
+
